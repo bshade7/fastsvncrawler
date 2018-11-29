@@ -12,6 +12,28 @@ From the SourceForge page;
 [This blog post documents how much faster this code was originally
 ](http://vcs.atspace.co.uk/2013/03/16/fast-listing-of-svn-repository-with-svn-crawler/).
 
+## Installation
+
+To compile the program, you will need the libsvn-dev, make, and cmake packages
+```
+$ sudo aptitude install libsvn-dev make cmake
+```
+
+Next, perform the standard steps for CMake project compilation
+```
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
+
+## Usage
+
+For basic usage of the utility, show all files for a URL by running
+```
+$ ./svn-crawler <URL>
+```
+
 ## Changes
 
 The following changes have been made;
@@ -22,6 +44,8 @@ The following changes have been made;
  * A .gitignore file has been added.
 
  * This README.md file has been added.
+ 
+ * Basic installation and usage instructions included for those wanting to use it.
 
 ## License
 
