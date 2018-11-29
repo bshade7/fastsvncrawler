@@ -34,6 +34,13 @@ For basic usage of the utility, show all files for a URL by running
 $ ./svn-crawler <URL>
 ```
 
+A couple of options are available to provide additional listing options
+```
+-r <REV>             Will crawl a specific revision at the provided URL
+--print-dirs         Will also show folders in the output as tree items and a blank MD5
+--non-interactive    Enables non-interactive mode
+```
+
 ## Changes
 
 The following changes have been made;
