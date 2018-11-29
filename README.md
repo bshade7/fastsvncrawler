@@ -16,7 +16,7 @@ From the SourceForge page;
 
 To compile the program, you will need the libsvn-dev, make, and cmake packages
 ```
-$ sudo aptitude install libsvn-dev make cmake
+$ sudo apt-get install libsvn-dev make cmake
 ```
 
 Next, perform the standard steps for CMake project compilation
